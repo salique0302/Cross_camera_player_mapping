@@ -24,21 +24,21 @@ This project solves the problem of player re-identification across two distinct 
 - numpy
 
 
-## 🛠️ Installation & Setup
+# 🛠️ Installation & Setup
 
 bash
-# Clone the repo
+## Clone the repo
 git clone https://github.com/salique0302/Cross_camera_player_mapping.git
 cd Cross_camera_player_mapping
 
-# (Optional) Create and activate virtual environment
+### (Optional) Create and activate virtual environment
 python3 -m venv venv
 source venv/bin/activate  # or use venv\Scripts\activate on Windows
 
 ## Install dependencies
 pip install -r requirements.txt
 
-#📥 Required Files
+# 📥 Required Files
 Videos:
 
 data/broadcast.mp4
