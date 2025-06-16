@@ -35,10 +35,10 @@ cd Cross_camera_player_mapping
 python3 -m venv venv
 source venv/bin/activate  # or use venv\Scripts\activate on Windows
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-##📥 Required Files
+#📥 Required Files
 Videos:
 
 data/broadcast.mp4
@@ -50,19 +50,19 @@ Model:
 yolo_model.pt (provided in assignment)
 (Not included in repo due to size limits. Download it here)
 
-##🚀 How to Run
+#🚀 How to Run
 bash
 Copy
 Edit
-# Step 1: Run detection
+## Step 1: Run detection
 python detect_yolo8.py
 
-# Step 2: Generate ResNet embeddings
+## Step 2: Generate ResNet embeddings
 python extract_features.py
 
-# Step 3: Match players across videos
+## Step 3: Match players across videos
 python match_players.py
 
-# Step 4: Create visual demo
+## Step 4: Create visual demo
 python generate_mapping_demo.py
 
