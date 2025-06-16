@@ -50,10 +50,11 @@ Model:
 yolo_model.pt (provided in assignment)
 (Not included in repo due to size limits. Download it here)
 
-#🚀 How to Run
+# 🚀 How to Run
 bash
 Copy
 Edit
+
 ## Step 1: Run detection
 python detect_yolo8.py
 
